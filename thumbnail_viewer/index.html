@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Thumbnail Viewer</title>
+	<link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="thumbnail-viewer">
+			<div class="thumbnail-gallerybw-1"></div>
+			<div class="thumbnail-gallerybw-3"></div>
+			<div class="thumbnail-gallerybw-4"></div>
+			<div class="thumbnail-gallerybw-5"></div>
+			<div class="thumbnail-gallerybw-7"></div>
+			<div class="thumbnail-gallerybw-8"></div>
+			<div class="thumbnail-gallerybw-9"></div>
+			<div class="thumbnail-gallerybw-13"></div>
+			<div class="thumbnail-gallerybw-14"></div>
+			<div class="thumbnail-gallerybw-15"></div>
+			<div class="thumbnail-gallerybw-16"></div>
+			<div class="thumbnail-gallerybw-17"></div>
+			<div class="thumbnail-gallerybw-18"></div>
+			<div class="thumbnail-gallerybw-19"></div>
+			<div class="thumbnail-gallerybw-20"></div>
+			<div class="thumbnail-gallerybw-21"></div>
+			<div class="thumbnail-gallerybw-22"></div>
+			<div class="thumbnail-gallerybw-23"></div>
+			<div class="thumbnail-gallerybw-24"></div>
+			<div class="thumbnail-gallerybw-25"></div>
+			<div class="thumbnail-gallerybw-26"></div>
+			<div class="thumbnail-gallerybw-27"></div>
+			<div class="thumbnail-gallerybw-28"></div>
+			<div class="thumbnail-gallerybw-29"></div>
+			<div class="thumbnail-gallerybw-30"></div>
+			<div class="thumbnail-gallerybw-31"></div>
+			<div class="thumbnail-gallerybw-32"></div>
+			<div class="thumbnail-gallerybw-33"></div>
+			<div class="thumbnail-gallerybw-34"></div>
+			<div class="thumbnail-gallerybw-35"></div>
+			<div class="thumbnail-gallerybw-36"></div>
+			<div class="thumbnail-gallerybw-37"></div>
+			<div class="thumbnail-gallerybw-39"></div>
+			<div class="thumbnail-gallerybw-40"></div>
+			<div class="thumbnail-gallerybw-41"></div>
+			<div class="thumbnail-gallerybw-42"></div>
+			<div class="thumbnail-gallerybw-43"></div>
+			<div class="thumbnail-gallerybw-44"></div>
+			<div class="thumbnail-gallerybw-45"></div>
+			<div class="thumbnail-gallerybw-46"></div>
+			<div class="thumbnail-gallerybw-47"></div>
+			<div class="thumbnail-gallerybw-48"></div>
+			<div class="thumbnail-gallerybw-49"></div>
+			<div class="thumbnail-gallerybw-50"></div>
+			<div class="thumbnail-gallerybw-51"></div>
+			<div class="thumbnail-gallerybw-52"></div>
+			<div class="thumbnail-gallerybw-53"></div>
+			<div class="thumbnail-gallerybw-55"></div>
+			<div class="thumbnail-gallerybw-56"></div>
+			<div class="thumbnail-gallerybw-57"></div>
+			<div class="thumbnail-gallerybw-58"></div>
+			<div class="thumbnail-gallerybw-59"></div>
+		</div>
+	</div>
+
+
+	<script>
+		(function () {
+			var thumbnailsCont = document.querySelector(".thumbnail-viewer");
+			var selectedThumbnail;
+
+			thumbnailsCont.addEventListener('click', function (el) {
+				if (selectedThumbnail) {
+					selectedThumbnail.classList.toggle("selected-thumbnail");
+				}
+				selectedThumbnail = el.target;
+				selectedThumbnail.classList.toggle("selected-thumbnail");
+			});
+		}())
+
+	</script>
+
+</body>
+
+</html>

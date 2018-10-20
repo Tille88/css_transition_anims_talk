@@ -1,0 +1,80 @@
+$background: rgb(237, 201, 0);
+$highlight: rgba(128, 12, 12, 1);
+
+///////////////////////////
+// CHEAP SPINNER
+* {
+	font-family: sans-serif;
+}
+
+#textClipRectOverlay {
+	fill: $highlight;
+	stroke: $highlight;
+}
+
+text {
+	fill: $background;
+}
+
+.spinner__background {
+	background-color: $background;
+	max-width: 25%;
+	max-height: 25%;
+	margin: 0 auto;
+}
+
+.spinner__clockwise {
+	animation: clockwise 10s linear infinite;
+	// animation: resizeClock 2s linear infinite;
+	stroke: $highlight;
+	stroke-width: 3px;
+	transform-origin: 50% 50%;
+}
+.spinner__aclockwise {
+	stroke: $background;
+	stroke-width: 1px;
+	// stroke-width: 5px;
+	animation: aclockwise 10s linear infinite;
+	transform-origin: 50% 50%;
+}
+
+#textClipRect {
+	animation: textClipAnim 5s infinite;
+}
+
+#textClipRectOverlay {
+	width: 30px;
+}
+
+@keyframes textClipAnim {
+	10% {
+		x: 70px;
+		width: 2px;
+	}
+	30% {
+		x: 20px;
+		width: 8px;
+	}
+	95% {width: 50px;}
+	100% {
+		x: 25px;
+		width: 0px;
+	}
+}
+
+
+@keyframes clockwise {
+	0% {transform: rotate(0deg) scale(0.9);}
+	25% {transform: rotate(90deg) scale(1.1);}
+	50% {transform: rotate(180deg) scale(0.9);}
+	75% {transform: rotate(270deg) scale(1.1);}
+	100% {transform: rotate(360deg) scale(0.9);}
+}
+@keyframes aclockwise {
+	0% {transform: rotate(360deg) scale(1);}
+	25% {transform: rotate(90deg) scale(0.7);}
+	50% {transform: rotate(180deg) scale(1);}
+	75% {transform: rotate(270deg) scale(0.7);}
+	100% {transform: rotate(0deg) scale(1);}
+}
+

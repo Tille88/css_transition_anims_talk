@@ -1,0 +1,11 @@
+{
+  "name": "cheap_spinner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-scss": "sass --watch scss:style"
+  },
+  "author": "",
+  "license": "ISC"
+}

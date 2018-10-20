@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cheap Spinner...</title>
+
+    <link rel="stylesheet" href="./style/index.css">
+
+  </head>
+  <body>
+    <div class="spinner__background">
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 100">
+        <defs>
+          <rect id="textClipRect" x="25" y="43"  width="0" height="12" />
+          <clipPath id="textClip">
+            <use href="#textClipRect"></use>
+          </clipPath>
+        </defs>
+        <rect x="20" y="20" width="60"
+        height="60" fill="none"
+        class="spinner__clockwise"
+        ></rect>
+        <rect  x="20" y="20" width="60"
+        height="60" fill="none"
+        class="spinner__aclockwise"></rect>
+        <g >
+          <use id="textClipRectOverlay" href="#textClipRect"></use>
+          <text clip-path="url(#textClip)" x="50" y="50"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          font-size="10px">
+          Loading...
+        </text>
+      </g>
+      </svg>
+    </div>
+
+
+
+    </body>
+    </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercise Setup</title>
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+  <div class="ball-ish">
+  </div>
+
+
+
+</body>
+
+<script>
+  (function () {
+    var ballish = document.querySelector(".ball-ish");
+
+    setTimeout(function () {
+      ballish.classList.toggle("animated");
+    }, 2000);
+    ballish.addEventListener('click', function (el) {
+      el.target.classList.toggle("clicked");
+    })
+
+  }())
+
+</script>
+
+</html>

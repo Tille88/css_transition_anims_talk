@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(circle, white 5%, black 50%)
+}
+
+.ball-ish{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 10em;
+  height: 10em;
+  border-radius: 40%;
+  background-color: rgb(9, 69, 87);
+
+  /* Insert transitions below */
+  transition: background-color 1s,
+              transform linear 1s 0s/*-1s delay... show that only one at the time...*/
+              ;
+
+}
+
+.ball-ish.animated{
+  background-color: aquamarine;
+  transform: translateX(50vw) rotateZ(360deg);
+}
+
+.ball-ish.clicked{
+  background-color: crimson;
+}
+
+.ball-ish:hover{
+  background-color: purple;
+}
+

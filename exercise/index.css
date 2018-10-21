@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(circle, white 5%, black 50%)
+}
+
+.ball-ish{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 10em;
+  height: 10em;
+  border-radius: 40%;
+  background-color: rgb(9, 69, 87);
+
+  /* Insert transitions below */
+
+}
+
+.ball-ish.animated{
+  /* Transitions to kick in after a second of loading... */
+
+}
+
+.ball-ish.clicked{
+  /* Transitions on click */
+
+}
+
+.ball-ish:hover{
+  /* Transitions on hover */
+
+}
+

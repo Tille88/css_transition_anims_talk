@@ -171,39 +171,6 @@ body{
 .thumbnail-gallerycl-99 { background-position: -2px -7392px; width: 130px; height: 130px; }
 
 
-// .thumbnail-viewer{
-// 	perspective: 1000px;
-// 	// perspective-origin: left top;
-// 	// perspective-origin: 25% 25%;
-// 	div{
-// 		box-shadow: 5px 10px;
-// 		transform: rotateY(50deg);
-// 		transform-style: preserve-3d;
-// 		// margin-left: -180px;
-// 		transition: all 0.5s;
-// 		// transition: transform 0.5s;
-// 		// transition: margin-left 2s linear;
-// 		// transition: margin-right 2s linear;
-// 		// margin-top: 20px;
-// 		&:hover{
-// 			transform: rotateY(10deg);
-// 			// margin-left: 0px;
-// 			// margin-right: 180px;
-// 		}
-// 	}
-// }
-
-
-// .thumbnail-el{
-// 	perspective: 10px;
-// 	perspective-origin: left;
-// 	.thumbnail-gallerybw-1{
-// 		box-shadow: 5px 10px;
-// 		transform: rotateY(50deg);
-// 		transform-style: preserve-3d;
-// 	}
-// }
-
 $n-children: 52;
 $img-width: 195px;
 
@@ -229,7 +196,7 @@ $img-width: 195px;
 		position: absolute;
 		margin-right: $img-width/2;
 		padding: 0 $img-width/4;
-		transition: 0.8s;
+		transition: transform 0.8s;
 		transform: perspective(1000px) rotateY(50deg);
 		&:hover{
 			margin-top: $img-width/16;
@@ -248,7 +215,7 @@ $img-width: 195px;
 // Make animate different directions...
 
 @keyframes box-shadow-anim {
-	0% {
+	0%, 100% {
 		// box-shadow:
 		box-shadow: 0px 0px 15px 0px white,
 		0px 0px 20px 10px hsla(213, 30%, 58%, 0.72);
@@ -257,78 +224,4 @@ $img-width: 195px;
 		box-shadow: 0px 0px 15px 0px white,
 		0px 0px 15px 5px hsla(138, 30%, 58%, 0.72);
 	}
-	100% {
-		box-shadow: 0px 0px 15px 0px white,
-		0px 0px 20px 10px hsla(213, 30%, 58%, 0.72);
-	}
 }
-
-
-// Worsk reasonably well 2...
-// .thumbnail-viewer{
-// 	position: relative;
-// 	transform-style: preserve-3d;
-// 	div{
-// 		@for $i from 0 to $n-children {
-// 			&:nth-child(#{$i+1}) {
-// 				//  left: $i * 10%;
-// 				left: $i * 70%/$n-children;
-// 			}
-// 		}
-// 		&.selected-thumbnail{
-// 			// Just make keep radiant
-// 		}
-// 		position: absolute;
-// 		margin-right: $img-width/2;
-// 		transition: 0.5s;
-// 		transform: perspective(1000px) rotateY(50deg);
-// 		&:hover{
-// 			transform: rotateY(0deg);
-// 			margin-left: $img-width*0.7;
-// 			~div{
-// 				margin-left: $img-width * 1.2;
-// 			}
-// 		}
-// 	}
-// }
-
-// // Worsk reasonably well...
-// .thumbnail-viewer{
-// 	position: relative;
-// 	transform-style: preserve-3d;
-// 	div{
-// 		@for $i from 0 to $n-children {
-// 			&:nth-child(#{$i+1}) {
-// 				 left: $i * 10%;
-// 			}
-// 		}
-// 		position: absolute;
-// 		transition: 0.5s;
-// 		transform: perspective(1000px) rotateY(50deg);
-// 		&:hover{
-// 			background-color: black;
-// 			transform: rotateY(0deg);
-// 			padding: 0 $img-width/2;
-// 			~div{
-// 				margin-left: $img-width/2;
-// 			}
-// 		}
-// 	}
-// }
-
-// .thumbnail-gallerybw-3{
-// 	position: absolute;
-// 	left: 50%;
-// }
-
-
-
-// .thumbnail-el{
-// 	perspective: 10px;
-// 	perspective-origin: left;
-// 	.thumbnail-gallerybw-1{
-// 		box-shadow: 5px 10px;
-// 		transform: rotateY(50deg);
-// 		transform-style: preserve-3d;
-// 	}
-// }

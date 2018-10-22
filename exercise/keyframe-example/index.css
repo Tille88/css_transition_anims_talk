@@ -22,12 +22,31 @@ body{
     rgb(108, 196, 223),
     rgb(9, 69, 87)
     );
-    /* transform: rotate(45deg) translate(30vw); */
-  animation: rotation-wide ease-in 2s forwards,
+
+    /* Can have animations in order separated by commas */
+  /* animation: rotation-wide ease-in 2s forwards,
     rotation-mid linear 1s 2s forwards,
     rotation-close linear 900ms 3s forwards,
-    shrink  500ms 3900ms forwards;
+    shrink  500ms 3900ms forwards; */
+
+    /* A lot of extra work though when can be
+    a single animations - neater transistion-function */
+    animation: centrifuge-single cubic-bezier(1,-0.04, 1, 1) 4s forwards,
+              shrink  500ms 3900ms forwards;
 }
+
+
+@keyframes centrifuge-single {
+	0% {
+		transform: rotate(0deg)
+		           translate(30vw);
+	}
+	100% {
+		transform: rotate(1420deg)
+		           translate(0vw);
+  }
+}
+
 
 @keyframes rotation-wide {
 	0% {

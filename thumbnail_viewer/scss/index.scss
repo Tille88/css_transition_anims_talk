@@ -33,7 +33,7 @@ body{
 }
 
 
-
+// Sprite positioning
 .thumbnail-gallerybw-1 { background-position: -2px -0px$color-img-offset; width: 195px; height: 130px; }
 .thumbnail-gallerybw-10 { background-position: -2px -132px; width: 195px; height: 130px; }
 .thumbnail-gallerybw-11 { background-position: -2px -264px; width: 195px; height: 130px; }
@@ -96,81 +96,7 @@ body{
 .thumbnail-gallerybw-54 { background-position: -2px -7656px; width: 87px; height: 130px; }
 .thumbnail-gallerybw-6 { background-position: -91px -7656px; width: 87px; height: 130px; }
 
-
-
-.thumbnail-gallerycl-117, .thumbnail-gallerycl-118, .thumbnail-gallerycl-62, .thumbnail-gallerycl-100, .thumbnail-gallerycl-101,
-.thumbnail-gallerycl-102, .thumbnail-gallerycl-103, .thumbnail-gallerycl-104, .thumbnail-gallerycl-105, .thumbnail-gallerycl-106,
-.thumbnail-gallerycl-107, .thumbnail-gallerycl-108, .thumbnail-gallerycl-109, .thumbnail-gallerycl-110, .thumbnail-gallerycl-111,
-.thumbnail-gallerycl-112, .thumbnail-gallerycl-113, .thumbnail-gallerycl-114, .thumbnail-gallerycl-115, .thumbnail-gallerycl-116,
-.thumbnail-gallerycl-63, .thumbnail-gallerycl-64, .thumbnail-gallerycl-65, .thumbnail-gallerycl-66, .thumbnail-gallerycl-67,
-.thumbnail-gallerycl-68, .thumbnail-gallerycl-69, .thumbnail-gallerycl-70, .thumbnail-gallerycl-71, .thumbnail-gallerycl-72,
-.thumbnail-gallerycl-73, .thumbnail-gallerycl-74, .thumbnail-gallerycl-75, .thumbnail-gallerycl-76, .thumbnail-gallerycl-77,
-.thumbnail-gallerycl-78, .thumbnail-gallerycl-79, .thumbnail-gallerycl-80, .thumbnail-gallerycl-81, .thumbnail-gallerycl-82,
-.thumbnail-gallerycl-83, .thumbnail-gallerycl-84, .thumbnail-gallerycl-85, .thumbnail-gallerycl-86, .thumbnail-gallerycl-87,
-.thumbnail-gallerycl-88, .thumbnail-gallerycl-89, .thumbnail-gallerycl-90, .thumbnail-gallerycl-91, .thumbnail-gallerycl-92,
-.thumbnail-gallerycl-93, .thumbnail-gallerycl-94, .thumbnail-gallerycl-95, .thumbnail-gallerycl-96, .thumbnail-gallerycl-97,
-.thumbnail-gallerycl-98, .thumbnail-gallerycl-99
-{ display: inline-block; background: url('../../assets/thumbnails/cl_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
-
-.thumbnail-gallerycl-117 { background-position: -2px -0px; width: 195px; height: 130px; }
-.thumbnail-gallerycl-118 { background-position: -2px -132px; width: 195px; height: 130px; }
-.thumbnail-gallerycl-62 { background-position: -2px -264px; width: 184px; height: 130px; }
-.thumbnail-gallerycl-100 { background-position: -2px -396px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-101 { background-position: -2px -528px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-102 { background-position: -2px -660px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-103 { background-position: -2px -792px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-104 { background-position: -2px -924px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-105 { background-position: -2px -1056px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-106 { background-position: -2px -1188px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-107 { background-position: -2px -1320px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-108 { background-position: -2px -1452px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-109 { background-position: -2px -1584px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-110 { background-position: -2px -1716px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-111 { background-position: -2px -1848px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-112 { background-position: -2px -1980px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-113 { background-position: -2px -2112px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-114 { background-position: -2px -2244px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-115 { background-position: -2px -2376px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-116 { background-position: -2px -2508px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-63 { background-position: -2px -2640px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-64 { background-position: -2px -2772px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-65 { background-position: -2px -2904px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-66 { background-position: -2px -3036px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-67 { background-position: -2px -3168px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-68 { background-position: -2px -3300px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-69 { background-position: -2px -3432px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-70 { background-position: -2px -3564px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-71 { background-position: -2px -3696px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-72 { background-position: -2px -3828px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-73 { background-position: -2px -3960px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-74 { background-position: -2px -4092px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-75 { background-position: -2px -4224px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-76 { background-position: -2px -4356px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-77 { background-position: -2px -4488px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-78 { background-position: -2px -4620px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-79 { background-position: -2px -4752px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-80 { background-position: -2px -4884px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-81 { background-position: -2px -5016px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-82 { background-position: -2px -5148px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-83 { background-position: -2px -5280px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-84 { background-position: -2px -5412px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-85 { background-position: -2px -5544px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-86 { background-position: -2px -5676px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-87 { background-position: -2px -5808px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-88 { background-position: -2px -5940px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-89 { background-position: -2px -6072px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-90 { background-position: -2px -6204px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-91 { background-position: -2px -6336px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-92 { background-position: -2px -6468px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-93 { background-position: -2px -6600px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-94 { background-position: -2px -6732px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-95 { background-position: -2px -6864px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-96 { background-position: -2px -6996px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-97 { background-position: -2px -7128px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-98 { background-position: -2px -7260px; width: 130px; height: 130px; }
-.thumbnail-gallerycl-99 { background-position: -2px -7392px; width: 130px; height: 130px; }
-
-
+// Variables
 $n-children: 52;
 $img-width: 195px;
 
@@ -185,17 +111,20 @@ $img-width: 195px;
 	position: relative;
 	transform-style: preserve-3d;
 	div{
+		// Space evenly
 		@for $i from 0 to $n-children {
 			&:nth-child(#{$i+1}) {
 				left: $i * 70%/$n-children;
 			}
 		}
 		&.selected-thumbnail{
+			// ANIMATION
 			animation: box-shadow-anim linear 3s infinite;
 		}
 		position: absolute;
 		margin-right: $img-width/2;
 		padding: 0 $img-width/4;
+		// TRANSITION
 		transition: transform 0.8s;
 		transform: perspective(1000px) rotateY(50deg);
 		&:hover{
@@ -213,10 +142,8 @@ $img-width: 195px;
 }
 
 // Make animate different directions...
-
 @keyframes box-shadow-anim {
 	0%, 100% {
-		// box-shadow:
 		box-shadow: 0px 0px 15px 0px white,
 		0px 0px 20px 10px hsla(213, 30%, 58%, 0.72);
 	}

@@ -124,14 +124,15 @@ $img-width: 195px;
 		position: absolute;
 		margin-right: $img-width/2;
 		padding: 0 $img-width/4;
-		// TRANSITION
-		transition: transform 0.8s;
+		// TRANSITION all
+		transition: 0.8s;
 		transform: perspective(1000px) rotateY(50deg);
 		&:hover{
 			margin-top: $img-width/16;
 			transform: rotateY(0deg);
 			margin-left: $img-width*0.73;
 			background-color: #fff;
+			// Same animation as for selected
 			animation: box-shadow-anim linear 3s infinite;
 			cursor: pointer;
 			~div{

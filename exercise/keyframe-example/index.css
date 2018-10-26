@@ -38,14 +38,26 @@ body{
 
 @keyframes centrifuge-single {
 	0% {
-		transform: rotate(0deg)
+    transform: rotate(0deg)
+              scale(1)
 		           translate(30vw);
 	}
 	100% {
-		transform: rotate(1420deg)
-		           translate(0vw);
+    transform: rotate(1420deg)
+              scale(0.4)
+               translate(0vw);
   }
 }
+
+@keyframes shrink {
+	0% {
+    transform: scale(0.4);
+  }
+	100% {
+    transform: scale(0);
+  }
+}
+
 
 
 @keyframes rotation-wide {
@@ -81,8 +93,8 @@ body{
   }
 }
 
-@keyframes shrink {
+/* @keyframes shrink {
 	100% {
     transform: scale(0);
   }
-}
+} */
